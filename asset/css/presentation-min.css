@@ -1,4 +1,8 @@
 @media only screen and (max-width: 600px) {
+    .navbar {
+        color: #ddd;
+        background-color: #3B5998;
+    }
     .parax {
         height: 1500px;
         margin: 0;
@@ -17,7 +21,7 @@
     }
     .sociaux {
         margin: -12px auto 0;
-        width: 480px;
+        width: 100%;
         height: 500px;
     }
     .cust-caption {
@@ -35,15 +39,18 @@
         overflow-y: auto;
     }
     .iPortfolio {
-        height: 1000px;
-        width: 140px;
+        height: 100%;
+        width: 100%;
+    }
+    .portfolios {
+        height: 100%;
     }
     .Ivaleurs {
         width: 50%;
-        height: 400px;
+        height: 100%;
     }
     .divService {
-        height: 3500px;
+        height: 100%;
     }
     .fa-facebook {
         color: #3B5998;
@@ -56,5 +63,8 @@
     .fa-pinterest-p {
         color: #C92228;
         font-size: .45em;
+    }
+    #about {
+        height: 100%;
     }
 }
