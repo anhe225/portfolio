@@ -1,0 +1,60 @@
+@media only screen and (max-width: 600px) {
+    .parax {
+        height: 1500px;
+        margin: 0;
+        padding: 0;
+    }
+    .sharer {
+        display: flex;
+        position: relative;
+        width: 80px;
+        height: 180px;
+        overflow: hidden;
+        border-radius: 28%;
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+        background-color: #fff;
+        font-size: 28px;
+    }
+    .sociaux {
+        margin: -12px auto 0;
+        width: 480px;
+        height: 500px;
+    }
+    .cust-caption {
+        display: none;
+        position: absolute;
+        background-color: rgba(30, 30, 30, 0.8);
+        padding: 10px;
+        color: #ddd;
+        margin: 5px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 70%;
+        margin: 5px;
+        overflow-y: auto;
+    }
+    .iPortfolio {
+        height: 1000px;
+        width: 140px;
+    }
+    .Ivaleurs {
+        width: 50%;
+        height: 400px;
+    }
+    .divService {
+        height: 3500px;
+    }
+    .fa-facebook {
+        color: #3B5998;
+        font-size: .44em;
+    }
+    .fa-twitter {
+        color: #00ACED;
+        font-size: .44em;
+    }
+    .fa-pinterest-p {
+        color: #C92228;
+        font-size: .45em;
+    }
+}
